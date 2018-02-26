@@ -4,17 +4,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
 	<title>Document</title>
 </head>
 <body>
 	<div>
-		<p>Question 1:</p>
-		<button>True</button>
-		<button>False</button>
-	</div>
-	<div>
-		<p>Your score is:</p>
-		<p id="score"></p>
+		<h4>Question 1:</h4>
+		<p id="q1"></p>
+		<span>will evaluate to</span>
+		<button class="true" onclick="checkAnswer(true)">True</button>
+		<button class="false" onclick="checkAnswer(false)">False</button>
+		<p id="a1"></p>
 	</div>
 	
 	<script src="quiz.js"></script>
